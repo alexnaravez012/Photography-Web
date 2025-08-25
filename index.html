@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/daa83b05d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.23.11/dist/css/uikit.min.css"
+    />
+    <!-- FontAwesome CDN para íconos sociales -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.11/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.11/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Aleks&Alex Photography</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <p class="logo">Aleks&Alex</p>
+        <a
+          class="uk-navbar-toggle uk-navbar-toggle-animate icon-color"
+          href
+          uk-navbar-toggle-icon
+        ></a>
+        <div class="uk-dropbar uk-dropbar-top dropstyle" uk-drop="stretch: x">
+          <div class="content-drop">
+            <a href="#aboutus">About us</a>
+            <a href="#services">Our Services</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="pic">
+      <h1>Welcome to our site</h1>
+      <button>Gallery</button>
+    </section>
+    <section id="aboutus">
+      <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+          <h3>ABOUT US</h3>
+
+          <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h3>SERVICES</h3>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-inline">
+            <img
+              src="img/Rondreis-Colombia-tips.webp"
+              width="1800"
+              height="1200"
+              alt=""
+            />
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+              <p>PORTRAITS</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-inline">
+            <img
+              src="img/Rondreis-Colombia-tips.webp"
+              width="1800"
+              height="1200"
+              alt=""
+            />
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+              <p>PARTIES</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-inline">
+            <img
+              src="img/Rondreis-Colombia-tips.webp"
+              width="1800"
+              height="1200"
+              alt=""
+            />
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+              <p>ANIMALS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutus">
+      <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+          <h3>GALLERY</h3>
+
+          <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="carrusel">
+      <div
+        class="uk-position-relative uk-visible-toggle uk-light"
+        tabindex="-1"
+        uk-slideshow="animation: fade; min-height: 250; max-height: 350; autoplay: true; autoplay-interval: 3000;"
+      >
+        <ul class="uk-slideshow-items">
+          <li>
+            <img
+              src="img/camera.webp"
+              alt="Camera"
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+          </li>
+          <li>
+            <img
+              src="img/Rondreis-Colombia-tips.webp"
+              alt="Colombia"
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+          </li>
+          <li>
+            <img
+              src="img/camera.webp"
+              alt="Camera 2"
+              style="width: 100%; height: 300px; object-fit: cover"
+            />
+          </li>
+        </ul>
+        <a
+          class="uk-position-center-left uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-previous
+          uk-slideshow-item="previous"
+        ></a>
+        <a
+          class="uk-position-center-right uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-next
+          uk-slideshow-item="next"
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social-icons">
+        <a href="https://instagram.com/aleks_n_alex_photos" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:correo@ejemplo.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/+31687349771" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <p>&copy; Aleks&AlexPhotography</p>
+    </footer>
+  </body>
+</html>
